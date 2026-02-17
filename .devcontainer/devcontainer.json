@@ -9,5 +9,5 @@
         }
     },
     "postCreateCommand": "npm install",
-    "postAttachCommand": "npm run dev & bash .devcontainer/watch-repo.sh &"
+    "postStartCommand": "npm run dev & bash .devcontainer/watch-repo.sh &"
 }
