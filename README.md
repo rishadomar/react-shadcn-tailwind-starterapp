@@ -33,9 +33,9 @@ git remote add origin <YOUR_NEW_REPOSITORY_URL>  # eg. git@github.com:youruserna
 git push -u origin main
 ```
 
-### Install Agent Skills (Claude Code)
+### Install Agent Skills
 
-If you use [Claude Code](https://claude.ai/code), restore the project's AI agent skills:
+If you use an AI coding agent (Claude Code, Cursor, Copilot, Cline, etc.), restore the project's skills:
 
 ```bash
 npx skills experimental_install
