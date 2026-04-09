@@ -13,6 +13,10 @@ dist-ssr
 *.local
 .env
 
+# Agent skills (restored via: npx skills experimental_install)
+.agents/
+.claude/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

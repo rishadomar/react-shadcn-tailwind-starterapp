@@ -33,6 +33,16 @@ git remote add origin <YOUR_NEW_REPOSITORY_URL>  # eg. git@github.com:youruserna
 git push -u origin main
 ```
 
+### Install Agent Skills (Claude Code)
+
+If you use [Claude Code](https://claude.ai/code), restore the project's AI agent skills:
+
+```bash
+npx skills experimental_install
+```
+
+This reads `skills-lock.json` and installs all skills locally (not committed to git).
+
 ### Other Useful Commands
 
 ```bash
